@@ -1,0 +1,57 @@
+.help-heading {
+    font-weight: 800 !important;
+    font-size: 50px;
+    margin-left: 20px;
+
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.helph6 {
+    color: #716f6f;
+    margin-left: 20px;
+
+}
+
+.main-form-help {
+    position: relative;
+    left: -100px;
+}
+
+.imgxx-wrapper {
+    width: 500px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.email-us {
+    text-decoration: underline;
+}
+
+label {
+    font-weight: 600;
+    color: #716f6f
+}
+
+button {
+    float: right;
+}
+
+button span {
+    margin-left: 8px;
+}
+
+button i {
+    margin: 0px 8px;
+}
+
+.btn {
+    margin-left: -100px;
+}
