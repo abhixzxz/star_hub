@@ -16,6 +16,7 @@ import Category from './components/Category/Category'
 import Help from "./components/Help/Help";
 import AboutCategory from "./components/Category/AboutCategory";
 import ReportUs from "./components/Report_us/ReportUs";
+import Particles from "./components/Particles/Particles";
 const Layout = () => {
   return (
     <>
@@ -73,6 +74,10 @@ const router = createBrowserRouter([
   {
     path: '/report-us',
     element: <ReportUs />
+  },
+  {
+    path: '/particles',
+    element: <Particles />
   },
   //   ]
   // },
