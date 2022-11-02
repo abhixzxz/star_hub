@@ -35,6 +35,7 @@ function Navbar() {
                                 </li>
                                 <li class=" dropdown"><Link href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS <span class="caret"></span></Link>
                                     <ul class="dropdown-menu">
+                                        <li><Link to="/services">Services</Link></li>
                                         <li><Link href="#">Latest</Link></li>
                                         <li><Link href="#">Developer contact</Link></li>
                                     </ul>
@@ -43,7 +44,7 @@ function Navbar() {
                                 <li class=" down"><Link href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MORE<span class="caret"></span></Link>
                                     <ul class="dropdown-menu">
                                         <li><Link href="#">Membership</Link></li>
-                                        <li><Link href="#">Report</Link></li>
+                                        <li><Link to="/report-us">Report</Link></li>
                                         <li><Link href="#">Advertise with us</Link></li>
                                         <li><Link href="#">Showcase your work</Link></li>
                                         <li><Link href="#">STARHUB-WORLD</Link></li>

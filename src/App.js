@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import Login from './pages/Login/Login'
 import Signup from './pages/Signup/SignUp'
 import Profile from "./components/Profile/Profile";
+import Services from './components/services/Services'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -14,6 +15,7 @@ import HireArtist from "./components/HireArtist/HireArtist";
 import Category from './components/Category/Category'
 import Help from "./components/Help/Help";
 import AboutCategory from "./components/Category/AboutCategory";
+import ReportUs from "./components/Report_us/ReportUs";
 const Layout = () => {
   return (
     <>
@@ -63,6 +65,14 @@ const router = createBrowserRouter([
   {
     path: '/profile',
     element: <Profile />
+  },
+  {
+    path: '/services',
+    element: <Services />
+  },
+  {
+    path: '/report-us',
+    element: <ReportUs />
   },
   //   ]
   // },
