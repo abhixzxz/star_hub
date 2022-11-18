@@ -118,3 +118,7 @@ body .containerz .card .box .content a:hover {
     background: #fff;
     color: #000;
 }
+
+h6 {
+    color: black;
+}
