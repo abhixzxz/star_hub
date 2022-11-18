@@ -46,6 +46,8 @@ function Login() {
                             <button className='login-btnz'>Login</button>
 
                             <p className='login-p'>
+                                <br />
+                                <br /><br />
                                 <Link to="/register">Don't have an Account?Signup</Link>
                                 {/* <a>Forget password?</a>
                                 <a>Create an account.</a> */}

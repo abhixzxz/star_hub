@@ -1,11 +1,10 @@
 .wrapperxx {
     color: #666666;
-    background: #0f080d;
+    background: #1c0d18;
     font-size: 16px;
     font-weight: 400;
     margin: 0 auto;
     width: 100%;
-    max-width: 1140px;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -85,14 +84,15 @@
 
 .col-left {
     width: 45%;
-    background: #391f35;
+    background: #5e2d56;
     -webkit-clip-path: polygon(98% 17%, 100% 34%, 98% 51%, 100% 68%, 98% 84%, 100% 100%, 0 100%, 0 0, 100% 0);
     clip-path: polygon(98% 17%, 100% 34%, 98% 51%, 100% 68%, 98% 84%, 100% 100%, 0 100%, 0 0, 100% 0);
 }
 
 .login-btnz {
     color: white;
-    background-color: #391f35;
+    background-color: #5e2d56;
+    ;
     border: none;
     height: 50px;
     cursor: pointer;

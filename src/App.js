@@ -5,7 +5,8 @@ import Footer from "./components/Footer/Footer";
 import Login from './pages/Login/Login'
 import Signup from './pages/Signup/SignUp'
 import Profile from "./components/Profile/Profile";
-import Services from './components/services/Services'
+import Services from './components/services/Services';
+import ViewImg from './components/ViewImage/ViewImg'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -17,6 +18,8 @@ import Help from "./components/Help/Help";
 import AboutCategory from "./components/Category/AboutCategory";
 import ReportUs from "./components/Report_us/ReportUs";
 import Particles from "./components/Particles/Particles";
+import { useState } from "react";
+
 const Layout = () => {
   return (
     <>
@@ -79,6 +82,10 @@ const router = createBrowserRouter([
     path: '/particles',
     element: <Particles />
   },
+  {
+    path: '/img',
+    element: <ViewImg />
+  },
   //   ]
   // },
   // {
@@ -93,11 +100,20 @@ const router = createBrowserRouter([
 
 
 function App() {
-  return (
-    <div className="app">
-      <RouterProvider router={router} />
+  const [loding, setLoading] = useState(true);
+  const preloader = document.getElementById('preloader')
+    if (preloader) {
+      setTimeout(() => {
+        preloader.style.display = 'none'
+        setLoading(false)
+      }, 2000);
+    }
 
-    </div>
+  return (
+    !loding && (
+      <div className="app" >
+        <RouterProvider router={router} />
+      </div>)
   );
 }
 export default App;

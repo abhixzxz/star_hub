@@ -3,8 +3,6 @@ import './Particles.scss'
 function Particles() {
   return (
     <div>
-
-
     </div>
   )
 }

@@ -19,7 +19,7 @@ function SignUp() {
                 <div className="col-left">
                     <div className="login-text">
                         <h2>STAR-HUB</h2>
-                        <p> Login to explore..!!
+                        <p> Sign-up to explore..!!
                         </p>
                         <Link className='btnrr' to="#">Read More</Link>
                         {/* <a className="btn" href="">Read More</a> */}
@@ -66,6 +66,8 @@ function SignUp() {
                             />
                             <br />
                             <button className='login-btnz'>SignUp</button>
+                            <br /><br />
+                            <br />
                             <br />
                             <Link to="/login"><p className="ac-signup">Alredy have an account? Login</p></Link>
                         </form>
